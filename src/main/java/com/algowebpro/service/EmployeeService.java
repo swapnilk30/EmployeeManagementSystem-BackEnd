@@ -2,6 +2,8 @@ package com.algowebpro.service;
 
 import com.algowebpro.dto.EmployeeDto;
 
+import java.util.List;
+
 public interface EmployeeService {
 
     //add Employee
@@ -11,6 +13,6 @@ public interface EmployeeService {
     EmployeeDto getEmployeeById(Long id);
 
     //get all Employee
-
+    List<EmployeeDto> getAllEmployee();
 
 }
